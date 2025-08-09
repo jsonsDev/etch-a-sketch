@@ -11,5 +11,5 @@ container.appendChild(gridSquare);
 const buttonContainer = document.querySelector(".button-container");
 const requestButton = document.createElement("button");
 requestButton.classList.add("request-button");
-requestButton.textContent = "Set grid";
+requestButton.textContent = "Create new grid";
 buttonContainer.appendChild(requestButton);
