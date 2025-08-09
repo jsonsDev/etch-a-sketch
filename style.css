@@ -43,6 +43,6 @@ button:hover {
     border: 1px solid #999999;
 }
 
-.grid-square:hover {
+.etched-grid {
     background-color: #94ABF2;
 }
