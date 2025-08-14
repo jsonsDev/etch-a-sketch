@@ -3,6 +3,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 14px 0;
+    color: #ffffff;
+    background-color: #62231D;
 }
 
 button {
@@ -37,8 +45,4 @@ button:hover {
 
 .grid-square {
     border: 1px solid #999999;
-}
-
-.etched-grid {
-    background-color: #94ABF2;
 }
