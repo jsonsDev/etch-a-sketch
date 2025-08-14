@@ -30,16 +30,12 @@ button:hover {
     display: flex;
     flex-wrap: wrap;
     justify-self: center;
-    width: 528px;
-    height: 100%;
+    width: 600px;
     margin-top: 20px;
     border: 1px solid #222226;
 }
 
 .grid-square {
-    width: calc(100% / 16);
-    height: auto;
-    padding-bottom: calc(100% / 16);
     border: 1px solid #999999;
 }
 
