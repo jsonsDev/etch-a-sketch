@@ -33,7 +33,6 @@ function removeGrid() {
     };
 };
 
-
 function createGrid() {
     let = squareSize = container.clientWidth / gridSize;
     for (let i = 0; i < gridSize * gridSize; i++) {
@@ -43,7 +42,14 @@ function createGrid() {
     gridSquare.style.height = `${squareSize}px`;
     container.appendChild(gridSquare);
     gridSquare.addEventListener("mouseover", () => {
-        gridSquare.classList.add("etched-grid");
+        gridSquare.style.backgroundColor = randomizeGridColor();
     });
     };
+};
+
+function randomizeGridColor() {
+    const r = Math.floor(Math.random() * 256);
+    const g = Math.floor(Math.random() * 256);
+    const b = Math.floor(Math.random() * 256);
+    return `rgb(${r}, ${g}, ${b})`;
 };
